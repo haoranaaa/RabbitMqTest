@@ -1,5 +1,8 @@
 package com.dhr.compute;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author haoran.duan
@@ -119,5 +122,30 @@ public class MergeSort {
         for(int x=0;x<temp.length;x++){
             a[x+low] = temp[x];
         }
+    }
+    /**
+     * 二叉树所有路径
+     */
+    public static List<String> getAllRoads(TreeNode treeNode){
+        List<String> list=new ArrayList();
+        if(treeNode==null){
+            return list;
+        }
+        if(treeNode.left==null && treeNode.right==null){
+            list.add(""+treeNode.val);
+        }
+
+        List<String> right=getAllRoads(treeNode.right);
+        for(String a:right){
+            list.add(treeNode.val+"->"+a);
+        }
+        List<String> left=getAllRoads(treeNode.left);
+        for(String a:left){
+            list.add(treeNode.val+"->"+a);
+        }
+        return list;
+
+
+
     }
 }

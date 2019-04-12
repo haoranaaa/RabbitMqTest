@@ -1,0 +1,16 @@
+
+0squid:S3626"Remove this redundant jump.(ÉŠ©ƒ
+m
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(Ï‡ì
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(§ãà
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŸÇ…«şÿÿÿÿ
+Fsquid:S1135"2Complete the task associated to this TODO comment.(¢õéE
+<squid:S1481"'Remove this unused "sb" local variable.(í…Ò‰
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(‰ÚÏ×
+Ksquid:S1854"6Remove this useless assignment to local variable "sb".(í…Ò‰
+Qsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
+tsquid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+jsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(û›şöıÿÿÿÿ
+Ssquid:S1155">Use isEmpty() to check whether the collection is empty or not.(Ä’™°

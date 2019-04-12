@@ -10,6 +10,8 @@ public class SingletonTest {
 
     private static volatile ThisTest thisTest;
 
+    public static final String a="a";
+
     private static ThisTest getThisTest(){
         if(thisTest==null){
             synchronized (SingletonTest.class){
@@ -19,11 +21,19 @@ public class SingletonTest {
         return thisTest;
     }
 
+    public static void getA(){
+        return;
+    }
+
 }
 class ThisTest extends SingletonTest{
 
+    public static final String a="2";
 
-    public void test(){
-
+    public static void getA(){
+        return;
     }
+}
+interface test{
+    abstract int aa();
 }

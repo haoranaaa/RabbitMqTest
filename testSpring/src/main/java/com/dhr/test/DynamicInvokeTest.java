@@ -4,7 +4,6 @@ import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 /**
- * TODO completion javadoc.
  *
  * @author haoran.duan
  * @since 27 十二月 2018

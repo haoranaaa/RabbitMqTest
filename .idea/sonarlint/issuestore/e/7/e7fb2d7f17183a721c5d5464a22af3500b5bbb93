@@ -1,0 +1,45 @@
+
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Óñ·°
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Óñ·°
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Óñ·°
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ì©«°
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(§–åûÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(±Þ¯Çüÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ìêâÎ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(°¡ãž
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÜÁ¬Žøÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ
+nsquid:S1488"YImmediately return this expression instead of assigning it to the temporary variable "A".(èÓÍ
+"squid:ClassVariableVisibilityCheck"PMake data a static final constant or non-public and provide accessors if needed.(ÅÖÔ´ùÿÿÿÿ
+…"squid:ClassVariableVisibilityCheck"TMake leftNode a static final constant or non-public and provide accessors if needed.(¨Ø÷Ãúÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"UMake rightNode a static final constant or non-public and provide accessors if needed.(°õ‡»
+dsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ ©Ã
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õå‘Ìÿÿÿÿÿ
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÑµÛüÿÿÿÿ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½“ë÷ùÿÿÿÿ
+fsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×›È[
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò“­ùÿÿÿÿ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÌÌ‚üÿÿÿÿ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ºäÐøÿÿÿÿ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ãÚœýÿÿÿÿ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®›„ÿÿÿÿÿÿ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œþÂª
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÓÍ
+esquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Óñ·°
+esquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Óñ·°
+esquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Óñ·°
+esquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ì©«°
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(µ²Æìùÿÿÿÿ
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ÐËÏ½ùÿÿÿÿ
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ÐËÏ½ùÿÿÿÿ
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(«º¹Ýûÿÿÿÿ

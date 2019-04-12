@@ -42,9 +42,11 @@ public class quickSort {
 
     public static void main(String[] args) {
         int[] array=new int[]{1,52,123,532,624,123,13,5432,6542,42,1341,2342,42341,315,151,5152};
-        quickSort(array,0,array.length-1);
+        quick(array,0,array.length-1);
         String string = Arrays.toString(array);
+        int i = binarySearch(array, 624, 0, array.length - 1);
         System.out.println(string);
+        System.out.println(i);
     }
 
 
@@ -72,4 +74,46 @@ public class quickSort {
         array[end]=k;
         return partion+1;
     }
+
+
+    public static int[] quick(int []array,int start,int end){
+        if (start<end){
+            int k=quickSort2(array,start,end);
+            quickSort(array,start,k-1);
+            quickSort(array,k+1,end);
+        }
+        return array;
+    }
+
+    private static int quickSort2(int[] array, int start, int end) {
+        int partion=start-1;
+        int base=array[end];
+        for(int i=start;i<end;i++){
+            if(array[i]<=base){
+                partion++;
+                int res=array[i];
+                array[i]=array[partion];
+                array[partion]=res;
+            }
+        }
+        int res=array[partion+1];
+        array[partion+1]=array[end];
+        array[end]=res;
+        return partion+1;
+    }
+
+    private static int binarySearch(int[] array, int n,int start,int end){
+        while (start<end){
+            int k=(end+start)/2;
+            if(array[k]>n){
+                end=k-1;
+            }else if(array[k]<n){
+                start=k+1;
+            }else{
+                return k;
+            }
+        }
+        return -1;
+    }
+
 }

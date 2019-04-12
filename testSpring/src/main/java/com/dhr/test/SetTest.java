@@ -4,6 +4,7 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
@@ -19,6 +20,32 @@ public class SetTest {
         System.out.println(i);
         System.out.println(111111110.000>Double.MAX_VALUE);
         setTest.wordBreak("lintcode",Sets.newHashSet("de", "ding", "co", "code", "lint"));
+        setTest.testDoubleBeanSet();
+    }
+
+    public void testDoubleBeanSet(){
+        Set<VOBean> set=Sets.newHashSet();
+        VOBean vo=new VOBean();
+        vo.setX("a");
+        set.add(vo);
+
+        vo.setX("b");
+
+        for(Iterator<VOBean> ite=set.iterator();ite.hasNext();){
+            VOBean next = ite.next();
+            System.out.println(next.getX());
+        }
+    }
+    class VOBean{
+        private String x;
+
+        public String getX() {
+            return x;
+        }
+
+        public void setX(String x) {
+            this.x = x;
+        }
     }
     public List<String> wordBreak(String s, Set<String> wordDict) {
         // write your code here
