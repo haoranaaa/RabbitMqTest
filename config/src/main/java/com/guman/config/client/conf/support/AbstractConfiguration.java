@@ -19,7 +19,7 @@ abstract class AbstractConfiguration<T> implements Configuration<T> {
 
     protected final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    protected final CopyOnWriteArrayList listeners = Lists.newCopyOnWriteArrayList();
+    protected final CopyOnWriteArrayList<ConfigListener<T>> listeners = Lists.newCopyOnWriteArrayList();
 
     protected final InitFuture future = new InitFuture();
 
@@ -27,6 +27,9 @@ abstract class AbstractConfiguration<T> implements Configuration<T> {
 
     protected ConfigLoader.Context context;
 
+    public AbstractConfiguration(ConfigLoader.Context context) {
+        this.context = context;
+    }
 
     @Override
     public ListenableFuture<Boolean> init() {
@@ -43,6 +46,13 @@ abstract class AbstractConfiguration<T> implements Configuration<T> {
         }
     }
 
+    @Override
+    public void removeListener(ConfigListener<T> listener) {
+        synchronized (current) {
+            listeners.remove(listener);
+        }
+    }
+
     private void trigger(ConfigListener<T> listener, T data){
         try {
             listener.onLoad(context.getApplication(), context.getName(), data);
@@ -50,6 +60,32 @@ abstract class AbstractConfiguration<T> implements Configuration<T> {
             logger.error("配置文件变更触发异常！data:{}",data,e);
         }
 
+    }
+
+    protected void setData(T data){
+        synchronized (current) {
+            current.set(data);
+
+            onChanged();
+
+            if(!future.isDone()){
+                future.set(true);
+            }
+
+            for(ConfigListener<T> listener : listeners){
+                trigger(listener, data);
+            }
+        }
+    }
+
+    protected void onChanged(){
+        return;
+    }
+
+    protected void setException(Throwable e){
+        if(!future.isDone()){
+            future.setException(e);
+        }
     }
 
 

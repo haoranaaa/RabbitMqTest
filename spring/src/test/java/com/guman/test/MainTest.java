@@ -38,4 +38,10 @@ public class MainTest {
     public void test2(){
         abcTest.print();
     }
+
+    @Test
+    public void test3() {
+        ResourceTest test=new ResourceTest();
+        test.print();
+    }
 }

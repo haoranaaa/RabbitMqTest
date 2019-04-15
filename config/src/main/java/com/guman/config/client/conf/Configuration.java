@@ -14,6 +14,8 @@ public interface Configuration<T> {
 
     void addListener(ConfigListener<T> listener);
 
+    void removeListener(ConfigListener<T> listener);
+
     interface ConfigListener<T> {
 
         void onLoad(String application, String name, T value);
