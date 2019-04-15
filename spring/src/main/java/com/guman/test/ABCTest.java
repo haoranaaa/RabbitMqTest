@@ -17,4 +17,8 @@ public class ABCTest {
     public void print(){
         System.out.println(x);
     }
+
+    public static void main(String[] args) {
+        System.out.println("0".equals("1") || 1 >= 1);
+    }
 }

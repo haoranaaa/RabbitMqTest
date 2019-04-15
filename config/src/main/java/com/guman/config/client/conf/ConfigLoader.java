@@ -1,5 +1,7 @@
 package com.guman.config.client.conf;
 
+import com.google.common.util.concurrent.ListenableFuture;
+import com.guman.common.pojo.Status;
 import com.guman.config.client.Feature;
 import com.guman.config.client.store.ConfigStore;
 import lombok.AllArgsConstructor;
@@ -18,7 +20,9 @@ public interface ConfigLoader<T> {
 
     <T> Configuration<T> load(Context context, Generator<T> generator);
 
+    ListenableFuture<Status> update(Context context, long version, String profile, String data);
 
+    ListenableFuture<String> view(Context context, Long version, String profile);
     /**
      * 配置生成器。
      *

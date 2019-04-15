@@ -4,9 +4,8 @@ import com.google.auto.service.AutoService;
 import com.guman.config.client.ConfigEnv;
 import com.guman.config.client.Feature;
 import com.guman.config.client.conf.ConfigLoader;
+import com.guman.config.client.conf.ConfigStoreContainer;
 import com.guman.config.client.conf.Configuration;
-import com.guman.config.client.store.ConfigStore;
-import com.sun.tools.javac.util.Assert;
 import org.springframework.util.StringUtils;
 
 import javax.annotation.Resource;
@@ -23,8 +22,8 @@ public class DefaultConfigLoader implements ConfigLoader {
 
     private final static String DEFAULT_APPLICATION = "default";
 
-    /*@Resource
-    private ConfigStoreContainer container;*/
+    @Resource
+    private ConfigStoreContainer container;
 
     public DefaultConfigLoader() {
         this.env = new ConfigEnv();
