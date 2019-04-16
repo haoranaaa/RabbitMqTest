@@ -5,6 +5,7 @@ import com.guman.common.pojo.Status;
 import com.guman.config.client.ConfigEnv;
 import com.guman.config.client.conf.ConfigStoreContainer;
 import com.guman.config.client.store.ConfigStore;
+import com.guman.config.client.store.ConfigStore.Version;
 
 import java.util.List;
 
@@ -13,6 +14,8 @@ import java.util.List;
  * @since 2019/4/15 10:58 AM
  */
 public class DefaultConfigStoreContainer implements ConfigStoreContainer {
+
+    public static Version ABSENT;
 
     @Override
     public void setup(ConfigEnv env) {

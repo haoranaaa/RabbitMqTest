@@ -7,6 +7,8 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.stream.Stream;
+
+import com.guman.common.json.JSON;
 import org.joda.time.DateTime;
 
 import com.sun.deploy.util.StringUtils;
@@ -22,6 +24,8 @@ public class Test {
 		Object obj=map;
 		Object objs=new Object();
 		System.out.println(objs instanceof Map);
+		String string = JSON.writeValueAsString(new int[]{0, 1, 2, 3, 4, 5});
+		System.out.println(string);
 	}
 
 	public void viladateStringBufeerAndBuilder(){
