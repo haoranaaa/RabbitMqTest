@@ -1,4 +1,4 @@
-package com.guman.config.client.conf;
+package com.guman.config.client.store;
 
 import com.google.common.util.concurrent.ListenableFuture;
 import com.guman.common.pojo.Status;

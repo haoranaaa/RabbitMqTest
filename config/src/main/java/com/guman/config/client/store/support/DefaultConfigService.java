@@ -68,6 +68,8 @@ public class DefaultConfigService implements ConfigService {
 
     private String appName;
 
+    private int port;
+
     private Map<String, List<String>> servers;
 
     private static final AtomicInteger index = new AtomicInteger(new Random().nextInt(1000));

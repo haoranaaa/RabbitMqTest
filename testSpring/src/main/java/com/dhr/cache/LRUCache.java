@@ -1,5 +1,8 @@
 package com.dhr.cache;
 
+import com.google.common.collect.Maps;
+
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -33,5 +36,24 @@ public class LRUCache {
         // write your code here
 
         map.offer(key);
+    }
+
+    public static void main(String[] args) {
+        User user=new User();
+        user.setName("a");
+        HashMap<String, User> map = Maps.newHashMap();
+        map.put("a", user);
+        System.out.println(String.format("欢迎%s的「%s」%s",1,map.get("b").getName(),2));
+    }
+    static class User{
+        private String name;
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
     }
 }

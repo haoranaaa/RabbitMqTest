@@ -1,9 +1,9 @@
-package com.guman.config.client.conf.support;
+package com.guman.config.client.store.support;
 
 import com.google.common.util.concurrent.ListenableFuture;
 import com.guman.common.pojo.Status;
 import com.guman.config.client.ConfigEnv;
-import com.guman.config.client.conf.ConfigStoreContainer;
+import com.guman.config.client.store.ConfigStoreContainer;
 import com.guman.config.client.store.ConfigStore;
 import com.guman.config.client.store.ConfigStore.Version;
 

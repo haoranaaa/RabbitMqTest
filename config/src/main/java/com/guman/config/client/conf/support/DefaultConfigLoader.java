@@ -1,10 +1,12 @@
 package com.guman.config.client.conf.support;
 
 import com.google.auto.service.AutoService;
+import com.google.common.util.concurrent.ListenableFuture;
+import com.guman.common.pojo.Status;
 import com.guman.config.client.ConfigEnv;
 import com.guman.config.client.Feature;
 import com.guman.config.client.conf.ConfigLoader;
-import com.guman.config.client.conf.ConfigStoreContainer;
+import com.guman.config.client.store.ConfigStoreContainer;
 import com.guman.config.client.conf.Configuration;
 import org.springframework.util.StringUtils;
 
@@ -38,6 +40,16 @@ public class DefaultConfigLoader implements ConfigLoader {
         wrapper.vilidate();
 
         return new Context(wrapper.getApplication(), wrapper.getName(), wrapper.getFeature());
+    }
+
+    @Override
+    public ListenableFuture<Status> update(Context context, long version, String profile, String data) {
+        return null;
+    }
+
+    @Override
+    public ListenableFuture<String> view(Context context, Long version, String profile) {
+        return null;
     }
 
     @Override

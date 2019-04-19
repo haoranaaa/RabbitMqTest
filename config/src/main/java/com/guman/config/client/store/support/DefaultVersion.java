@@ -1,6 +1,5 @@
 package com.guman.config.client.store.support;
 
-import com.guman.config.client.conf.support.DefaultConfigStoreContainer;
 import com.guman.config.client.store.ConfigStore.Version;
 
 import java.util.Objects;

@@ -1,13 +1,12 @@
 package com.dhr.io;
 
 import io.netty.bootstrap.ServerBootstrap;
-import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.ChannelInitializer;
-import io.netty.channel.SimpleChannelInboundHandler;
+import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.string.StringDecoder;
+import io.netty.handler.codec.string.StringEncoder;
 
 /**
  *
@@ -15,7 +14,7 @@ import io.netty.handler.codec.string.StringDecoder;
  * @since 11 二月 2019
  */
 public class NettyServer {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         ServerBootstrap serverBootstrap = new ServerBootstrap();
 
         NioEventLoopGroup boos = new NioEventLoopGroup();
@@ -27,15 +26,29 @@ public class NettyServer {
                     @Override
                     protected void initChannel(NioSocketChannel ch) {
                         ch.pipeline().addLast(new StringDecoder());
-                        ch.pipeline().addLast(new SimpleChannelInboundHandler<String>() {
+                        ch.pipeline().addLast(new ChannelInitializer() {
+
                             @Override
-                            protected void channelRead0(ChannelHandlerContext ctx, String msg) {
-                                System.out.println(msg);
+                            protected void initChannel(Channel ch) throws Exception {
+                                ChannelPipeline p = ch.pipeline();
+                                p.addLast(new StringDecoder());
+                                p.addLast(new StringEncoder());
+                                p.addLast(new HelloServerHandler());
+
                             }
                         });
                     }
                 })
-                .bind(8000);
+                .bind(8000).sync();
+    }
+
+    static class HelloServerHandler extends ChannelInboundHandlerAdapter{
+        @Override
+        public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+            System.out.println("获取到信息:"+msg);
+            ctx.writeAndFlush("success");
+            ctx.close();
+        }
     }
 }
 

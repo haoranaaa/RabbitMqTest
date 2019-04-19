@@ -2,8 +2,11 @@ package com.dhr.cache;
 
 import com.dhr.model.CacheNode;
 import com.google.common.base.Preconditions;
+import com.guman.common.json.JSON;
+import lombok.Data;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 import java.util.function.Function;
@@ -92,6 +95,42 @@ public class O1Cache<K,V>{
         Preconditions.checkNotNull(fun);
         this.put(k,fun.apply(k));
         return map.get(k).getValue();
+    }
+
+
+    public static void main(String[] args) {
+        Msg msg=new Msg();
+        msg.setCallId("213123");
+        msg.setCd(213123);
+        msg.setClientId("adasd");
+        msg.setCmd("colorList");
+        msg.getBody().put("haveTitleProp",1);
+        msg.setSig("sdasdasd");
+        msg.setTime(System.currentTimeMillis());
+        msg.setDesc("DESC");
+        System.out.println(JSON.writeValueAsString(msg));
+
+    }
+
+    @Data
+    public static class Msg{
+        // 必须
+        private int ver;
+        private String callId;
+        private int cd; // 0:成功
+        private String desc;
+        private long time;
+
+        // 可选
+        private String sig;
+        private String cmd;
+        //    private String topic;
+        private String clientId;
+
+
+        private Map<String, Object> body = new HashMap<>();
+
+
     }
 
 
