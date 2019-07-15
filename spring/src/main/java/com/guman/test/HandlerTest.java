@@ -10,6 +10,8 @@ import javax.annotation.Resource;
  */
 @Component
 public class HandlerTest {
-    @Resource
-    private ABCTest absTest;
+
+    public void print() {
+        System.out.println("hi");
+    }
 }

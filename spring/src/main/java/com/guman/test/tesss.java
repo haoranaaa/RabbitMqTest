@@ -1,0 +1,83 @@
+package com.guman.test;
+
+
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.google.common.base.Splitter;
+import com.google.common.collect.Lists;
+import com.guman.common.json.JSON;
+import okhttp3.*;
+import org.springframework.util.CollectionUtils;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+/**
+ * @author duanhaoran
+ * @since 2019/5/28 1:23 PM
+ */
+public class tesss {
+
+    private OkHttpClient okHttpClient = new OkHttpClient();
+    private static Splitter on = Splitter.on(",");
+
+
+    public static void main(String[] args) throws IOException {
+        tesss tesss = new tesss();
+        String x="1277502,1271752,1116711,1060638,1065241,1317100,1029115,1228450,1348883,1231000,1332010,1183024,1342362,1376023,1112633,1245244,1260571,1169683,1100651,1041614,1392415,1351848,1130249,1133863,1393686,1355966,1167695,1125350,1320438,1205348,1128728,1297758,432621 ,1243791,556272 ,1233655,1312910,1385451,1100073,1217806,1268682,501663 ,1335963,1224028,1205758,1354445,1130310,1141688,1374461,1297305,1259221,1108421,1373282,1314738,1351432,1003176,1339491,1130349,1397600,1317463,1232207,1325311,568520 ,1374915,1240125,1319714,1244097,1154328,1309482,1355448,1199473,1275372,1307130,1120505,1148807,1237211,1353133,1281044,1311669,1114999,1038539,1202212,1251383,1320189,1108459,1114972,1108518,1288492,575912 ,1208201,1212825,1185655,1190577,1383274,1308518,1375173,1182941,1239661,1157382,555293 ,1121690,1119594,1105783,1179974,1073410,1207396,285603 ,1204422,1399926,1328251,1059354,1114157,1394000,1307718,1007789,1348977,1184700,1337037,1368260,1101540,1167677,1140132,1236671,1341625,1189555,1192163,1317808,1164347,1083253,1356976,1382644,1300734,1359411,1089598,1130833,1378949,1142129,563075 ,1294025,1199341,1119820,1060372,1339191,1276550,1283218,1399357,1095779,599322 ,1261879,1190310,1373777,1310879,1263726,1146653,493257 ,1169871,1222339,1275996,1229181,1025581,1101386,1218220,1232577,1310173,1290048,1161104,1113278,1338414,1122548,1326628,1000676,301919 ,1367950,1215903,561198 ,1329376,1397969,1302259,1007604,1288570,1158300,1126418,1348114,1080641,1238648,1110259,1081935,1149990,1366934,1265928,1125316,1238876,1000715,1293799,535252 ,1275037,1302674,1195711,1118538,1140322,1190729,1331189,1209519,1383691,1043456,1317797,1133115,1013879,1296568,1229109,1096482,219604 ,1190096,1299186,1134897,1359142,377777 ,1176332,1340207,564307 ,1161334,1375243,1010339,1271877,1234181,1241593,1104168,1219882,547215 ,1354048,1249686,1337785,1006416,174    ,1376878,1177277,1316533,1227682,1398848,1014130,1154419,1372842";
+        List<String> strings = on.splitToList(x);
+        List<String> list= Lists.newArrayList();
+        tesss.castMap();
+//        try {
+//            for (String roomId : strings) {
+//                String trim = roomId.trim();
+//                boolean b = tesss.senMsg(trim);
+//                if (b) {
+//                    list.add(trim);
+//                }
+//            }
+//            System.out.println(list.size());
+//            System.out.println(list);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+    }
+
+    private void castMap(){
+
+        String a = "1317100, 1376023, 1245244, 1169683, 1100651, 1041614, 1320438, 1130349, 1232207, 1319714, 1275372, 1237211, 1114999, 1108459, 1375173, 1239661, 1059354, 1007789, 1167677, 1164347, 1339191, 1095779, 1373777, 1222339, 1275996, 1290048, 1000676, 1007604, 1288570, 1158300, 1126418, 1080641, 1238648, 1081935, 1238876, 1000715, 1190729, 1331189, 1209519, 1383691, 1043456, 1317797, 1133115, 1013879, 1096482, 1190096, 1010339, 1271877, 1234181, 1241593, 1354048, 1249686, 1006416, 1376878, 1177277, 1316533, 1398848, 1014130, 1154419";
+        String b = "1317100, 1376023, 1245244, 1169683, 1100651, 1041614, 1320438, 432621, 556272, 501663, 1130349, 1232207, 568520, 1319714, 1275372, 1237211, 1114999, 1108459, 575912, 1375173, 1239661, 555293, 285603, 1059354, 1007789, 1167677, 1164347, 563075, 1339191, 1095779, 599322, 1373777, 493257, 1222339, 1275996, 1290048, 1000676, 301919, 561198, 1007604, 1288570, 1158300, 1126418, 1080641, 1238648, 1081935, 1238876, 1000715, 535252, 1190729, 1331189, 1209519, 1383691, 1043456, 1317797, 1133115, 1013879, 1096482, 219604, 1190096, 377777, 564307, 1010339, 1271877, 1234181, 1241593, 547215, 1354048, 1249686, 1006416, 174, 1376878, 1177277, 1316533, 1398848, 1014130, 1154419";
+        List<String> strings = on.splitToList(a.trim());
+        List<String> blist = on.splitToList(b.trim());
+        ArrayList<String> bList = Lists.newArrayList(blist);
+        bList.removeAll(strings);
+        Map<Integer, List<Integer>> map = bList.stream().map(String::trim).map(Integer::valueOf).collect(Collectors.groupingBy(i -> i % 20));
+        for (int i = 0; i < 20; i++) {
+            List<Integer> integers = map.get(i);
+            if (CollectionUtils.isEmpty(integers)) {
+                continue;
+            }
+            System.out.println(i + ":" + integers);
+        }
+        System.out.println(map);
+
+    }
+
+    private boolean senMsg(String roomId) throws IOException {
+        Request.Builder builder = new Request.Builder();
+        builder.url("http://apitest.wb-intra.com/ms/test");
+        FormBody.Builder builder1 = new FormBody.Builder();
+        builder1.add("url", "room.isVipRoom");
+        builder1.add("host", "room.wb-ms.com");
+        builder1.add("params", "{\"uid\":59686815,\"roomId\":\""+roomId+"\"}");
+        builder.post(builder1.build());
+        Call call = okHttpClient.newCall(builder.build());
+        Response execute = call.execute();
+        return execute.body().string().contains("true");
+
+    }
+
+}
