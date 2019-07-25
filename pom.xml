@@ -25,6 +25,7 @@
         <module>spring</module>
         <module>common</module>
         <module>config</module>
+        <module>raft-store</module>
     </modules>
 	<properties>
 		<mybatis.version>3.4.1</mybatis.version>
@@ -100,6 +101,65 @@
 			<groupId>com.fasterxml.jackson.datatype</groupId>
 			<artifactId>jackson-datatype-guava</artifactId>
 			<version>${faster-jackson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.25</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.21</version>
+		</dependency>
+
+
+		<!-- RPC transport -->
+		<dependency>
+			<groupId>com.alipay.sofa</groupId>
+			<artifactId>bolt</artifactId>
+			<version>1.4.1</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>slf4j-api</artifactId>
+					<groupId>org.slf4j</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!-- vm db -->
+		<dependency>
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
+			<version>2.9.0</version>
+		</dependency>
+
+		<!-- serializer -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.49</version>
+		</dependency>
+
+		<!-- lombok get set-->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.2</version>
+		</dependency>
+
+		<!-- guava -->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>23.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alipay.sofa</groupId>
+			<artifactId>hessian</artifactId>
+			<version>3.3.2</version>
 		</dependency>
 		<dependency>
 			<groupId>RabbitMQTest</groupId>
