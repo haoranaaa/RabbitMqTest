@@ -9,6 +9,7 @@
         <module name="bootstrap" />
         <module name="common" />
         <module name="config" />
+        <module name="guman-router" />
         <module name="spring" />
         <module name="testSpring" />
       </profile>

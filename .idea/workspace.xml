@@ -3,67 +3,20 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/../work-project/wb-friend-root/wb-friend-api/src/main/java/com/wb/friendapi/service/FriendRemarkService.java" description="return true;" line="23" />
     <bookmark url="file://$PROJECT_DIR$/../work-project/wb-friend-root/wb-friend/src/main/java/com/wb/friend/ms/GetFriendRemark.java" description="logger.info(String.format(&quot;ms %s recv param : %s&quot;,..." line="30" />
-    <bookmark url="file://$PROJECT_DIR$/../work-project/wb-game-root/wb-game-draw/src/main/java/com/wb/game/draw/biz/DrawMsgSender.java" line="126" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e4df4e7-132f-4317-9e22-ae1ac65da491" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/src/main/java/com/example/bootstrap/schedule/TestSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/com/guman/config/client/zookeeper/ZkCli.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/guman/model/ModelA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/guman/test/AImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/guman/test/AbcIm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/guman/test/BImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/guman/test/BeanMapUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/guman/test/SpringDynamicCronTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/guman/test/TestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/guman/test/interfaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/guman/test/tesss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/test/java/com/guman/test/MainTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/bean/AccompanyInvite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/bean/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/bean/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/collection/RangeMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/collection/ShuffleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/compute/GameType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/compute/NewCaclute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/compute/RandomTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/compute/SubType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/date/ShortTimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/json/JsonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/json/MsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/test/ColorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpring/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guman-router/src/main/java/com/guman/gumanrouter/controller/RouterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/guman/controller/AbstractEventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/guman/controller/BallEventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/collection/ContainsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/compute/IntegerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/guman/test/ABCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/guman/test/ABCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/guman/test/AbstractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/guman/test/AbstractService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/guman/test/ConfigAnnotationBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/guman/test/ConfigAnnotationBeanPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/guman/test/HandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/guman/test/HandlerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/test/java/com/guman/test/MainTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/guman/test/ABCTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/target/classes/com/guman/test/ABCTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/guman/test/AbstractService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/target/classes/com/guman/test/AbstractService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/guman/test/ConfigAnnotationBeanPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/target/classes/com/guman/test/ConfigAnnotationBeanPostProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/guman/test/HandlerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/target/classes/com/guman/test/HandlerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/target/classes/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/test-classes/com/guman/test/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/executor/ExecutorUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/executor/ExecutorUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/file/FileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/file/FileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/lock/LockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/lock/LockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/test/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/test/SortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/test/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/test/StreamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSpring/target/classes/com/dhr/executor/ExecutorUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/target/classes/com/dhr/executor/ExecutorUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSpring/target/classes/com/dhr/file/FileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/target/classes/com/dhr/file/FileTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSpring/target/classes/com/dhr/lock/LockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/target/classes/com/dhr/lock/LockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSpring/target/classes/com/dhr/test/SortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/target/classes/com/dhr/test/SortTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSpring/target/classes/com/dhr/test/StreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/target/classes/com/dhr/test/StreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/testSpring/target/" />
@@ -71,6 +24,7 @@
     <ignored path="$PROJECT_DIR$/common/target/" />
     <ignored path="$PROJECT_DIR$/config/target/" />
     <ignored path="$PROJECT_DIR$/bootstrap/target/" />
+    <ignored path="$PROJECT_DIR$/guman-router/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,30 +59,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BootstrapApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap/src/main/java/com/example/bootstrap/BootstrapApplication.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="893">
+              <caret line="47" column="21" selection-start-line="21" selection-start-column="7" selection-end-line="47" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guman-router/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RouterController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guman-router/src/main/java/com/guman/gumanrouter/controller/RouterController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding>
-                <element signature="e#327#328#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSchedule.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bootstrap/src/main/java/com/example/bootstrap/schedule/TestSchedule.java">
+      <file leaf-file-name="IntegerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testSpring/src/main/java/com/dhr/compute/IntegerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="361">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractEventController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/guman/controller/AbstractEventController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContainsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testSpring/src/main/java/com/dhr/collection/ContainsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BallEventController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/guman/controller/BallEventController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5130">
+              <caret line="303" column="19" selection-start-line="303" selection-start-column="19" selection-end-line="303" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17461">
+              <caret line="972" column="19" selection-start-line="972" selection-start-column="19" selection-end-line="972" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -148,10 +179,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>safe</find>
-      <find>thread</find>
-      <find>Resource.class</find>
-      <find>wormpex</find>
       <find>config_se</find>
       <find>execut</find>
       <find>BeanUtils</find>
@@ -178,6 +205,10 @@
       <find>triggerTasks</find>
       <find>,'</find>
       <find>fixed</find>
+      <find />
+      <find> </find>
+      <find />
+      <find>contains</find>
     </findStrings>
     <replaceStrings>
       <replace>.leftNode</replace>
@@ -186,6 +217,7 @@
       <replace>FileVersion</replace>
       <replace>'</replace>
       <replace>,('1004','狼人杀官方房','</replace>
+      <replace>','</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -194,15 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/src/main/java/com/guman/config/client/store/support/DefaultConfigStore.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/guman/test/ConfigAnnotationBeanPostProcessor.java" />
-        <option value="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/collection/RangeMapTest.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/guman/test/HandlerTest.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/guman/test/AbstractService.java" />
-        <option value="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/compute/RandomTest.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/resources/spring.xml" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/guman/test/ScheduleTest.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/com/guman/test/interfaceTest.java" />
         <option value="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/json/TestClass.java" />
         <option value="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/json/MsResponse.java" />
         <option value="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/json/JsonTest.java" />
@@ -243,8 +266,17 @@
         <option value="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/compute/SubType.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/com/guman/model/ModelA.java" />
         <option value="$PROJECT_DIR$/spring/src/main/java/com/guman/test/BeanMapUtil.java" />
-        <option value="$PROJECT_DIR$/bootstrap/pom.xml" />
         <option value="$PROJECT_DIR$/bootstrap/src/main/java/com/example/bootstrap/schedule/TestSchedule.java" />
+        <option value="$PROJECT_DIR$/bootstrap/pom.xml" />
+        <option value="$PROJECT_DIR$/guman-router/pom.xml" />
+        <option value="$PROJECT_DIR$/guman-router/src/main/java/com/guman/gumanrouter/controller/RouterController.java" />
+        <option value="$PROJECT_DIR$/guman-router/src/main/java/com/guman/gumanrouter/config/a.java" />
+        <option value="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/compute/IntegerTesty.java" />
+        <option value="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/compute/IntegerTest.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/com/guman/controller/BallEventController.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/com/guman/controller/AbstractEventController.java" />
+        <option value="$PROJECT_DIR$/testSpring/src/main/java/com/dhr/collection/ContainsTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -299,9 +331,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,55 +341,47 @@
             <path>
               <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="testSpring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="testSpring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="testSpring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="testSpring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="testSpring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="dhr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="RabbitMQTest" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="testSpring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dhr" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RabbitMQTest" type="b2602c69:ProjectViewProjectNode" />
@@ -396,6 +417,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -404,7 +428,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="newFixedThread&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;ExecutorSer&#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService&#10;Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;DateU&#9;PSI&#9;JAVA://org.asynchttpclient.util.DateUtils&#10;Watcher&#9;PSI&#9;JAVA://org.apache.zookeeper.Watcher&#10;AnnotatedElementUtils&#9;PSI&#9;JAVA://org.springframework.core.annotation.AnnotatedElementUtils&#10;AnnotationAttributes&#9;PSI&#9;JAVA://org.springframework.core.annotation.AnnotationAttributes&#10;Wor&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/javafx-src.zip!/javafx/concurrent/Worker.java&#10;Json&#9;FILE&#9;file:///Users/duanhaoran/Projects/RabbitMQTest/common/src/main/java/com/guman/common/json/JSON.java&#10;AppClassL&#9;PSI&#9;JAVA://sun.misc.Launcher.AppClassLoader&#10;Module&#9;FILE&#9;jar:///Users/duanhaoran/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar!/com/fasterxml/jackson/databind/Module.class&#10;Mo&#9;FILE&#9;jar:///Users/duanhaoran/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar!/com/fasterxml/jackson/databind/Module.class&#10;com.fasterxml.jackson.databind.Module&#9;PSI&#9;JAVA://com.fasterxml.jackson.databind.Module&#10;BeanD&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanDefinition&#10;ClassLoad&#9;PSI&#9;JAVA://java.lang.ClassLoader&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;GuavaCa&#9;PSI&#9;JAVA://org.springframework.cache.guava.GuavaCache&#10;Collection&#9;PSI&#9;JAVA://java.util.Collection&#10;ConcurrentHash&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap" />
+    <property name="SearchEverywhereHistoryKey" value="ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList&#10;newFixedThread&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;ExecutorSer&#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService&#10;Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;DateU&#9;PSI&#9;JAVA://org.asynchttpclient.util.DateUtils&#10;Watcher&#9;PSI&#9;JAVA://org.apache.zookeeper.Watcher&#10;AnnotatedElementUtils&#9;PSI&#9;JAVA://org.springframework.core.annotation.AnnotatedElementUtils&#10;AnnotationAttributes&#9;PSI&#9;JAVA://org.springframework.core.annotation.AnnotationAttributes&#10;Wor&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/javafx-src.zip!/javafx/concurrent/Worker.java&#10;Json&#9;FILE&#9;file:///Users/duanhaoran/Projects/RabbitMQTest/common/src/main/java/com/guman/common/json/JSON.java&#10;AppClassL&#9;PSI&#9;JAVA://sun.misc.Launcher.AppClassLoader&#10;Module&#9;FILE&#9;jar:///Users/duanhaoran/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar!/com/fasterxml/jackson/databind/Module.class&#10;Mo&#9;FILE&#9;jar:///Users/duanhaoran/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar!/com/fasterxml/jackson/databind/Module.class&#10;com.fasterxml.jackson.databind.Module&#9;PSI&#9;JAVA://com.fasterxml.jackson.databind.Module&#10;BeanD&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanDefinition&#10;ClassLoad&#9;PSI&#9;JAVA://java.lang.ClassLoader&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;GuavaCa&#9;PSI&#9;JAVA://org.springframework.cache.guava.GuavaCache&#10;Collection&#9;PSI&#9;JAVA://java.util.Collection&#10;ConcurrentHash&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -443,7 +467,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BootstrapApplication">
+  <component name="RunManager" selected="Application.ContainsTest">
     <configuration name="BeanMapUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.guman.test.BeanMapUtil" />
       <module name="spring" />
@@ -455,24 +479,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dhr.lock.LockTest" />
+    <configuration name="ContainsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dhr.collection.ContainsTest" />
       <module name="testSpring" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dhr.lock.*" />
+          <option name="PATTERN" value="com.dhr.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ShortTimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dhr.date.ShortTimeTest" />
+    <configuration name="IntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dhr.compute.IntegerTest" />
       <module name="testSpring" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dhr.date.*" />
+          <option name="PATTERN" value="com.dhr.compute.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -521,6 +545,10 @@
     <configuration name="BootstrapApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bootstrap" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.bootstrap.BootstrapApplication" />
+    </configuration>
+    <configuration name="GumanRouterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="guman-router" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guman.gumanrouter.GumanRouterApplication" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -606,20 +634,21 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.tomcat8" />
-      <item itemvalue="Application.LockTest" />
-      <item itemvalue="Application.ShortTimeTest" />
       <item itemvalue="Spring Boot.BootstrapApplication" />
+      <item itemvalue="Spring Boot.GumanRouterApplication" />
       <item itemvalue="Application.ShuffleTest" />
       <item itemvalue="Application.SubType" />
       <item itemvalue="Application.BeanMapUtil" />
+      <item itemvalue="Application.IntegerTest" />
+      <item itemvalue="Application.ContainsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContainsTest" />
+        <item itemvalue="Application.IntegerTest" />
         <item itemvalue="Application.BeanMapUtil" />
         <item itemvalue="Application.SubType" />
         <item itemvalue="Application.ShuffleTest" />
-        <item itemvalue="Application.LockTest" />
-        <item itemvalue="Application.ShortTimeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -664,7 +693,9 @@
       <workItem from="1559287518954" duration="19737000" />
       <workItem from="1559729861429" duration="4818000" />
       <workItem from="1560663969684" duration="22969000" />
-      <workItem from="1562299768974" duration="19712000" />
+      <workItem from="1562299768974" duration="24046000" />
+      <workItem from="1563339770986" duration="12125000" />
+      <workItem from="1564053967721" duration="1502000" />
     </task>
     <servers />
   </component>
@@ -701,7 +732,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271741000" />
+    <option name="totallyTimeSpent" value="289702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -727,20 +758,20 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.44923076" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32923076" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25846153" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982639" visible="true" weight="0.25396827" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25846153" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982639" visible="true" weight="0.26007327" />
+      <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.5017361" side_tool="true" weight="0.24175824" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.5034722" side_tool="true" weight="0.24969475" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.5034722" side_tool="true" weight="0.24969475" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -799,112 +830,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/asynchttpclient/async-http-client/2.0.32/async-http-client-2.0.32-sources.jar!/org/asynchttpclient/util/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSpring/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSpring/src/main/java/com/dhr/test/SpringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSpring/src/main/java/com/dhr/test/StreamApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSpring/src/main/java/com/dhr/test/SortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/java/com/guman/config/client/zookeeper/ZkCli.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.1-jre/guava-25.1-jre-sources.jar!/com/google/common/collect/Sets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="231" column="31" selection-start-line="231" selection-start-column="31" selection-end-line="231" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSpring/src/main/java/com/dhr/test/StreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1165">
-          <caret line="70" column="11" lean-forward="true" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#526#833#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/guman/test/AImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/guman/test/BImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/guman/test/TestInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/test/java/com/guman/test/MainTest3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="47" column="15" lean-forward="true" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
-          <folding>
-            <element signature="e#2239#2248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testSpring/src/main/java/com/dhr/bean/Team.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -954,10 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
           <caret line="863" column="11" selection-start-line="863" selection-start-column="11" selection-end-line="863" selection-end-column="11" />
-          <folding>
-            <element signature="e#35291#35292#0" expanded="true" />
-            <element signature="e#35374#35375#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -986,10 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3914">
           <caret line="248" column="11" selection-start-line="248" selection-start-column="11" selection-end-line="248" selection-end-column="11" />
-          <folding>
-            <element signature="e#7388#7389#0" expanded="true" />
-            <element signature="e#7427#7428#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1046,9 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="63" column="56" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1119,13 +1033,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/guman/model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/guman/model.java" />
     <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/guman/test/MainC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1137,9 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1154,16 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
           <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1185,15 +1080,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/src/main/java/com/example/bootstrap/schedule/TestSchedule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="228">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guman-router/HELP.md" />
+    <entry file="file://$PROJECT_DIR$/bootstrap/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="21" selection-start-line="21" selection-start-column="7" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guman-router/src/main/java/com/guman/gumanrouter/controller.java" />
+    <entry file="file://$PROJECT_DIR$/guman-router/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guman-router/src/main/java/com/guman/gumanrouter/config/a.java" />
+    <entry file="file://$PROJECT_DIR$/guman-router/src/main/java/com/guman/gumanrouter/controller/RouterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17461">
+          <caret line="972" column="19" selection-start-line="972" selection-start-column="19" selection-end-line="972" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5130">
+          <caret line="303" column="19" selection-start-line="303" selection-start-column="19" selection-end-line="303" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSpring/src/main/java/com/dhr/compute/IntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/guman/controller/BallEventController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/guman/controller/AbstractEventController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSpring/src/main/java/com/dhr/collection/ContainsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
         </state>
       </provider>
     </entry>

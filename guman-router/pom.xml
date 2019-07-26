@@ -8,10 +8,10 @@
         <version>2.1.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
-    <artifactId>bootstrap</artifactId>
+    <groupId>com.guman</groupId>
+    <artifactId>guman-router</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>bootstrap</name>
+    <name>guman-router</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -46,17 +46,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.netflix.hystrix</groupId>
-            <artifactId>hystrix-core</artifactId>
-            <version>1.5.18</version>
-        </dependency>
-        <dependency>
-            <groupId>com.netflix.rxjava</groupId>
-            <artifactId>rxjava-core</artifactId>
-            <version>0.20.7</version>
-        </dependency>
-
     </dependencies>
 
     <build>
@@ -66,13 +55,6 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
     </build>
-
 
 </project>
