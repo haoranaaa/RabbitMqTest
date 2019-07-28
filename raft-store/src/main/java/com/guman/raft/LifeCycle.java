@@ -5,4 +5,9 @@ package com.guman.raft;
  * 生命周期
  */
 public interface LifeCycle {
+
+    void init();
+
+    void destroy();
+
 }

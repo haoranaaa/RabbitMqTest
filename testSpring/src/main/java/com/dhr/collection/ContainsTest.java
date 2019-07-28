@@ -16,11 +16,11 @@ public class ContainsTest {
         ArrayList<Integer> list = Lists.newArrayList();
         HashSet<Integer> set = Sets.newHashSet();
 
-        list.add(null);
+        list.add(2);
         set.add(null);
         System.out.println(Runtime.getRuntime().availableProcessors());
         set.add(1);
-        set.containsAll(list);
+        System.out.println(set.containsAll(list));
         System.out.println(set);
         System.out.println(list);
     }
