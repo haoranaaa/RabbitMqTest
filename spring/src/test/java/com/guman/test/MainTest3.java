@@ -1,20 +1,25 @@
 package com.guman.test;
 
-import com.google.common.collect.Lists;
 import com.guman.annotation.Wconfig;
-import org.joda.time.DateTime;
-import org.joda.time.LocalTime;
+import com.guman.asyn.AsyncTest;
+import com.guman.service.OrderService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.annotation.AnnotationUtils;
+import org.springframework.data.redis.core.Cursor;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.ScanOptions;
+import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.util.ReflectionUtils;
 
 import javax.annotation.Resource;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.List;
+import java.util.PriorityQueue;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -41,6 +46,11 @@ public class MainTest3 {
     @Resource
     private TestInterface bImpl;
 
+    @Resource
+    private List<OrderService> orderServiceList;
+
+    @Autowired
+    private RedisTemplate<String, String> redisTemplate;
 
     private static String a;
 
@@ -48,7 +58,12 @@ public class MainTest3 {
         a ="a";
     }
 
-
+    @Test
+    public void testOrder() {
+        for (OrderService orderService : orderServiceList) {
+            System.out.println(orderService.getOrder());
+        }
+    }
 
     @Test
     public void test(){
@@ -56,6 +71,21 @@ public class MainTest3 {
         allBeans.stream().map(Class::getSimpleName).forEach(System.out::println);
         String value = (String)AnnotationUtils.getDefaultValue(Wconfig.class, "value");
         System.out.println(value);
+
+    }
+
+    @Test
+    public void testCursor() {
+        for (int i = 0; i < 100; i++) {
+            redisTemplate.opsForSet().add("a", "a"+i);
+        }
+        Cursor<String> b = redisTemplate.opsForSet().scan("a", ScanOptions.scanOptions().count(1).build());
+        while (b.hasNext()) {
+            String next = b.next();
+            System.out.println(next);
+        }
+
+
 
     }
 
@@ -80,7 +110,6 @@ public class MainTest3 {
     }
     @Test
     public void test5() {
-        System.out.println(aImpl.getStr());
         System.out.println(bImpl.getStr());
     }
 
@@ -88,16 +117,13 @@ public class MainTest3 {
         return a;
     }
 
-    public static void main(String[] args) {
-        List<Integer> list = IntStream.range(0, 10).boxed().collect(Collectors.toList());
-        for (Iterator<Integer> iterator = list.iterator(); iterator.hasNext();) {
-            Integer next = iterator.next();
-            if (next < 5 ) {
-                iterator.remove();
-            }
-        }
-        System.out.println(list);
-        PriorityQueue<Integer> queue = new PriorityQueue<Integer>(Comparator.comparing(integer -> integer));
+    @Resource
+    private AsyncTest asyncTest;
 
+    @Test
+    public void test6() {
+        for (int i = 0; i < 100; i++) {
+            asyncTest.asynRun();
+        }
     }
 }

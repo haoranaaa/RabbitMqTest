@@ -25,6 +25,7 @@ public class ConfigAnnotationBeanPostProcessor implements BeanPostProcessor {
     public Object postProcessBeforeInitialization(@Nullable Object bean,@Nullable String beanName) throws BeansException {
         parseFileds(bean ,bean.getClass());
         parseMethods(bean, bean.getClass());
+
         return bean;
     }
 

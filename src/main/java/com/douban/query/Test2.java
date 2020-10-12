@@ -1,6 +1,9 @@
 package com.douban.query;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ArrayBlockingQueue;
@@ -26,15 +29,10 @@ public class Test2 {
 	private static ThreadPoolExecutor executor = new ThreadPoolExecutor(3,3,1000,TimeUnit.MILLISECONDS,new ArrayBlockingQueue<Runnable>(100));
 
 	public static Integer ONES_SHOP_NUM=2;
-	public static void main(String[] args) {
-		Test2 test2=new Test2();
-		List<String> list=new ArrayList<>();
-		for(int i=0;i<10;i++){
-			list.add("a"+i);
-		}
-		List<String> list1 = test2.filterShop(list);
-		System.out.println(list1);
-		executor.shutdown();
+	public static void main(String[] args) throws ParseException {
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		Date parse = sdf.parse("2020-03-25 16:36:52");
+		System.out.println(parse.getTime() > 1585126184766L);
 	}
 
 	public List<String> filterShop(List<String> allShopCode) {
@@ -85,5 +83,7 @@ public class Test2 {
 		}
 		return list;
 	}
+
+
 
 }

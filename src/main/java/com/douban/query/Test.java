@@ -1,5 +1,6 @@
 package com.douban.query;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -9,6 +10,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.stream.Stream;
 
 import com.guman.common.json.JSON;
+import org.apache.commons.lang3.math.NumberUtils;
 import org.joda.time.DateTime;
 
 import com.sun.deploy.util.StringUtils;
@@ -18,14 +20,21 @@ import com.sun.deploy.util.StringUtils;
  */
 public class Test {
 	public static void main(String[] args) {
-		Map<String,Object> map=new HashMap<>();
-		map.put("a","1");
-		map.put("b","2");
-		Object obj=map;
-		Object objs=new Object();
-		System.out.println(objs instanceof Map);
-		String string = JSON.writeValueAsString(new int[]{0, 1, 2, 3, 4, 5});
-		System.out.println(string);
+		String value = "0.00%";
+		value = format(value);
+		if (value.endsWith("%")) {
+			String substring = value.replaceAll("%", "");
+			value = format(substring) + "%";
+		}
+		System.out.println(value);
+	}
+
+	private static String format(String substring) {
+		if (NumberUtils.isNumber(substring)) {
+			DecimalFormat df = new DecimalFormat("#.##");
+			substring = df.format(NumberUtils.createNumber(substring));
+		}
+		return substring;
 	}
 
 	public void viladateStringBufeerAndBuilder(){

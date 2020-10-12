@@ -1,0 +1,41 @@
+package com.guman.common.util;
+
+import com.google.common.collect.Maps;
+import org.springframework.cglib.beans.BeanMap;
+
+import java.util.Map;
+
+/**
+ * @author duanhaoran
+ * @since 2020/5/19 7:50 PM
+ */
+public class BeanMapUtils {
+    /**
+     * 将对象装换为map
+     * @param bean
+     * @return
+     */
+    public static <T> Map<String, Object> beanToMap(T bean) {
+        Map<String, Object> map = Maps.newHashMap();
+        if (bean != null) {
+            BeanMap beanMap = BeanMap.create(bean);
+            for (Object key : beanMap.keySet()) {
+                map.put(key+"", beanMap.get(key));
+            }
+        }
+        return map;
+    }
+
+    /**
+     * 将map装换为javabean对象
+     * @param map
+     * @param bean
+     * @return
+     */
+    public static <T> T mapToBean(Map<String, Object> map,T bean) {
+        BeanMap beanMap = BeanMap.create(bean);
+        beanMap.putAll(map);
+        return bean;
+    }
+
+}

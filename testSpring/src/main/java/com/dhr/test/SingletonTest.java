@@ -21,6 +21,15 @@ public class SingletonTest {
         return thisTest;
     }
 
+    public static SingletonTest getSingleton() {
+        return SingletonCreater.singletonTest;
+    }
+
+    private static class SingletonCreater{
+
+        private static SingletonTest singletonTest = new SingletonTest();
+    }
+
     public static void getA(){
         return;
     }

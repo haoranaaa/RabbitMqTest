@@ -76,4 +76,35 @@ public class TestLock implements Lock{
             return new ConditionObject();
         }
     }
+
+    public static void main(String[] args) throws InterruptedException {
+        TestLock testLock = new TestLock();
+        Condition condition = testLock.newCondition();
+        new Thread(()-> {
+            try {
+                lockT(testLock, condition);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }).run();
+        new Thread(()-> {
+            try {
+                Thread.sleep(500);
+                condition.signal();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }).run();
+        Thread.sleep(3000);
+    }
+
+    private static void lockT(TestLock testLock, Condition condition) throws InterruptedException {
+        System.out.println("lock");
+        testLock.lock();
+        System.out.println("lock2");
+        condition.await();
+        Thread.sleep(1000);
+        testLock.unlock();
+        System.out.println(Thread.currentThread().getName());
+    }
 }

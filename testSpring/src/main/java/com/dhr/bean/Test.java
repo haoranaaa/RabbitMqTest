@@ -1,12 +1,11 @@
 package com.dhr.bean;
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.google.common.collect.Lists;
 import com.guman.common.json.JSON;
 import org.joda.time.LocalTime;
 
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author duanhaoran
@@ -21,6 +20,9 @@ public class Test {
         Date endDate = new GregorianCalendar(2019, 5, 2, 23, 59, 59).getTime();
         boolean result = isBetweenDate(new Date(), startDate, endDate);
         System.out.println(result);
+        String json = "{\"10\":{\"10\":10}}";
+        System.out.println(JSON.readValue(json, new TypeReference<Map<Integer, Map<Integer, Integer>>>() {
+        }));
     }
     /**
      * 判断当前时间是否在[startTime, endTime]区间，注意时间格式要一致
