@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.Cursor;
 import org.springframework.data.redis.core.ScanOptions;
 import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.data.redis.core.types.RedisClientInfo;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,6 +13,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Objects;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
@@ -28,7 +30,6 @@ public class TestController {
     private StringRedisTemplate stringRedisTemplate;
 
     @GetMapping("/a")
-    @Controller
     public String testForward(HttpServletRequest request, HttpServletResponse response) {
         try {
             Scanner sc = new Scanner(System.in);
@@ -67,9 +68,9 @@ public class TestController {
 //            }
             cursor.close();
             Thread.sleep(1000);
-            stringRedisTemplate.getClientList().stream().map(k->k.getAddressPort()).forEach(System.out::println);
+            Objects.requireNonNull(stringRedisTemplate.getClientList()).stream().map(RedisClientInfo::getAddressPort).forEach(System.out::println);
         }
         System.out.println(b);
         return "b";
     }
-}                                  m
+}
