@@ -10,8 +10,10 @@ public class Sort {
     public static void main(String[] args) {
         int[] array = new int[]{1, 52, 123, 532, 624, 123, 13, 5432, 6542, 42, 1341, 2342, 42341, 315, 151, 5152};
         quickSort2(array, 0, array.length - 1);
+        int[] nums = {6, 5, 23, 42, 62, 36, 324, 23, 4, 236, 23, 523, 4, 234};
+        quickSort2(nums, 0, nums.length-1);
 //        mergeSort(array,0,array.length-1);
-        for (int i : array) {
+        for (int i : nums) {
             System.out.println(i);
         }
     }

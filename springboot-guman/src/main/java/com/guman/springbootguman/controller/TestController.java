@@ -28,10 +28,10 @@ public class TestController {
     private StringRedisTemplate stringRedisTemplate;
 
     @GetMapping("/a")
+    @Controller
     public String testForward(HttpServletRequest request, HttpServletResponse response) {
         try {
             Scanner sc = new Scanner(System.in);
-
             request.setAttribute("b", "b");
             request.getRequestDispatcher("/test/b").forward(request, response);
         } catch (ServletException | IOException e) {
@@ -72,4 +72,4 @@ public class TestController {
         System.out.println(b);
         return "b";
     }
-}
+}                                  m
